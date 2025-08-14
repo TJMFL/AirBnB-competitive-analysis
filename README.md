@@ -60,10 +60,21 @@ airbnb-competitive-demo/
 │   │   └── server.ts          # Backend API code
 │   ├── package.json
 │   └── .env
-├── frontend/
-│   ├── src/
-│   │   └── App.tsx            # React frontend code
-│   └── package.json
+├──frontend/
+    ├── src/
+│   ├── App.tsx
+│   ├── App.css
+│   ├── main.tsx
+│   └── index.css
+│   └── vite-env.d.ts
+│   └──AirbnbDemo.tsx
+├── index.html
+└── package.json
+└── eslint.config.js
+└── tsconfig.json
+└── tsconfig.node.json
+└── tsconfig.app.json
+└── vite.config.ts
 ├── docker-compose.yml         # MongoDB setup
 └── README.md
 ```
@@ -512,5 +523,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **🎉 Your Airbnb Competitive Analysis Demo is ready!**
+
 
 This demo showcases the full potential of AI-powered competitive intelligence for Airbnb hosts, combining real-time data collection, intelligent analysis, and automated insights to help maximize revenue and occupancy.
