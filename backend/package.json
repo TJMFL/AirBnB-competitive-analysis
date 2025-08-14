@@ -1,0 +1,30 @@
+{
+    "name": "airbnb-demo-backend",
+    "version": "1.0.0",
+    "description": "Airbnb Competitive Analysis Demo Backend",
+    "main": "dist/server.js",
+    "scripts": {
+        "dev": "nodemon --exec ts-node src/server.ts",
+        "build": "tsc",
+        "start": "node dist/server.js",
+        "test-mcp": "npx @openbnb/mcp-server-airbnb"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^0.4.0",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.1",
+        "express": "^4.21.2",
+        "mongoose": "^7.8.7",
+        "node-cron": "^3.0.2",
+        "openai": "^4.20.1"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.19",
+        "@types/dotenv": "^6.1.1",
+        "@types/express": "^4.17.23",
+        "@types/node": "^20.19.10",
+        "nodemon": "^3.0.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.2"
+    }
+}
